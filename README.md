@@ -1,9 +1,9 @@
 [CASHXCHANGE-README.md](https://github.com/user-attachments/files/32138916/CASHXCHANGE-README.md)
-# CashConnect 💸
+# CASHXCHANGE 💸
 
 > **A peer-to-peer cash access marketplace prototype with one account, two roles, a demo wallet, OTP-secured transactions, dual reputation, privacy controls, and receiver commission simulation.**
 
-CashConnect is a **demo/MVP web application** built to explore a peer-to-peer model where a user can either request physical cash as a **Sender** or provide physical cash as a **Receiver**. Both roles use the same account and interface.
+CASHXCHANGE is a **demo/MVP web application** built to explore a peer-to-peer model where a user can either request physical cash as a **Sender** or provide physical cash as a **Receiver**. Both roles use the same account and interface.
 
 The project focuses on the user experience, transaction lifecycle, wallet/ledger simulation, privacy, reputation, dispute handling, and admin controls. **It does not process real money.**
 
@@ -11,7 +11,7 @@ The project focuses on the user experience, transaction lifecycle, wallet/ledger
 
 ## 🚨 Important Disclaimer
 
-**CashConnect is a prototype/demo application. No real financial transaction takes place.**
+**CASHXCHANGE is a prototype/demo application. No real financial transaction takes place.**
 
 The current project uses a client-side mock backend and simulated data. It is **not** connected to a real bank, UPI network, payment gateway, KYC provider, or cash-withdrawal service.
 
@@ -23,7 +23,7 @@ A real-money version would require an appropriate regulated financial/payment-pa
 
 ## ✨ What the Project Does
 
-CashConnect combines four main ideas:
+CASHXCHANGE combines four main ideas:
 
 - **One account, two roles** — the same user can act as Sender or Receiver.
 - **Nearby matching** — Senders can discover nearby available Receivers without exposing their wallet balance.
@@ -161,7 +161,7 @@ A random six-digit demo OTP is generated for the simulated verification step.
 
 ## ⭐ Dual Rating System
 
-CashConnect keeps **separate reputation scores** for each role.
+CASHXCHANGE keeps **separate reputation scores** for each role.
 
 ### Sender Rating
 
@@ -684,30 +684,13 @@ This project is intentionally a prototype. Among the main limitations:
 - [ ] Compliance and legal review
 
 ---
+<img width="457" height="696" alt="Screenshot 2026-09-12 121851" src="https://github.com/user-attachments/assets/ed7359a0-866f-4bed-9e4c-c4d8a6065d41" />
+<img width="451" height="817" alt="Screenshot 2026-09-12 121835" src="https://github.com/user-attachments/assets/d67f7bac-6cf5-4662-a0ff-645d948cc3a8" />
+<img width="453" height="810" alt="Screenshot 2026-09-12 121816" src="https://github.com/user-attachments/assets/b2717243-c02a-431e-9dcd-9845047a09b8" />
+<img width="455" height="711" alt="Screenshot 2026-09-12 122043" src="https://github.com/user-attachments/assets/733daa24-0f92-4255-af6c-2a9ce7d851dd" />
+<img width="455" height="692" alt="Screenshot 2026-09-12 121757" src="https://github.com/user-attachments/assets/6220b801-2d11-4e1f-8649-3dae42c76a79" />
+<img width="437" height="667" alt="Screenshot 2026-09-12 122052" src="https://github.com/user-attachments/assets/7d00c95d-dcc5-4250-abc5-2525f8ca71a6" />
 
-## 📸 Screenshots
-
-You can add screenshots to the repository and reference them here, for example:
-
-```md
-![Home Screen](screenshots/home.png)
-![Sender Flow](screenshots/sender-flow.png)
-![Receiver Flow](screenshots/receiver-flow.png)
-![Wallet](screenshots/wallet.png)
-![Transactions](screenshots/transactions.png)
-![Admin Dashboard](screenshots/admin-dashboard.png)
-```
-
-Recommended screenshots for the GitHub README:
-
-1. Home screen
-2. Sender request
-3. Nearby Receiver list
-4. Receiver request
-5. Active transaction + OTP
-6. Wallet
-7. Dual rating/profile
-8. Admin dashboard
 
 ---
 
