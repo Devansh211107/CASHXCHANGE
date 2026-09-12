@@ -683,16 +683,16 @@ This project is intentionally a prototype. Among the main limitations:
 - [ ] Production-grade security review
 - [ ] Compliance and legal review
 
----
-<img width="457" height="696" alt="Screenshot 2026-09-12 121851" src="https://github.com/user-attachments/assets/ed7359a0-866f-4bed-9e4c-c4d8a6065d41" />
-<img width="451" height="817" alt="Screenshot 2026-09-12 121835" src="https://github.com/user-attachments/assets/d67f7bac-6cf5-4662-a0ff-645d948cc3a8" />
-<img width="453" height="810" alt="Screenshot 2026-09-12 121816" src="https://github.com/user-attachments/assets/b2717243-c02a-431e-9dcd-9845047a09b8" />
-<img width="455" height="711" alt="Screenshot 2026-09-12 122043" src="https://github.com/user-attachments/assets/733daa24-0f92-4255-af6c-2a9ce7d851dd" />
-<img width="455" height="692" alt="Screenshot 2026-09-12 121757" src="https://github.com/user-attachments/assets/6220b801-2d11-4e1f-8649-3dae42c76a79" />
-<img width="437" height="667" alt="Screenshot 2026-09-12 122052" src="https://github.com/user-attachments/assets/7d00c95d-dcc5-4250-abc5-2525f8ca71a6" />
+<img width="437" height="732" alt="Screenshot 2026-09-12 122511" src="https://github.com/user-attachments/assets/db570d53-8b1a-4e30-bc13-055670214b80" />
+<img width="460" height="722" alt="Screenshot 2026-09-12 122519" src="https://github.com/user-attachments/assets/58061b83-a383-453f-8494-4374a200ed25" />
+<img width="451" height="746" alt="Screenshot 2026-09-12 122533" src="https://github.com/user-attachments/assets/a42c285a-abf4-42cd-a8a0-99e62361c097" />
+<img width="446" height="757" alt="Screenshot 2026-09-12 122543" src="https://github.com/user-attachments/assets/2db35b7b-82f6-41f8-bbcd-3cc0f9e3a037" />
+<img width="441" height="750" alt="Screenshot 2026-09-12 122553" src="https://github.com/user-attachments/assets/6191d789-9d97-421b-bdf9-513a0c6e4967" />
+<img width="452" height="732" alt="Screenshot 2026-09-12 122607" src="https://github.com/user-attachments/assets/2581709c-0d06-4da3-96ea-3f516758a8e7" />
+<img width="437" height="662" alt="Screenshot 2026-09-12 122622" src="https://github.com/user-attachments/assets/6f99af04-c358-41bb-a86a-339a78896acb" />
+<img width="458" height="691" alt="Screenshot 2026-09-12 122642" src="https://github.com/user-attachments/assets/83c0acd8-4c0e-49c0-aaab-5e988034c645" />
+<img width="435" height="675" alt="Screenshot 2026-09-12 122703" src="https://github.com/user-attachments/assets/01234f97-3e7c-4a58-b6bb-fc748ec5210f" />
 
-
----
 
 ## 🤝 Contributing
 
