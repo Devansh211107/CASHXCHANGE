@@ -192,7 +192,7 @@ export const ProfileScreen: React.FC = () => {
             <div className="flex items-center gap-1.5 truncate">
               <span className="text-sky-400 font-bold">𝕏</span>
               <span className="text-slate-300 truncate">
-                {currentUser.socialProfiles?.twitter || '@devansh_p2p'}
+                {currentUser.socialProfiles?.twitter?.handle || '@devansh_p2p'}
               </span>
             </div>
             <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0 ml-1" />
@@ -202,7 +202,7 @@ export const ProfileScreen: React.FC = () => {
             <div className="flex items-center gap-1.5 truncate">
               <span className="text-blue-400 font-bold">in</span>
               <span className="text-slate-300 truncate">
-                {currentUser.socialProfiles?.linkedin || 'devansh-p2p'}
+                {currentUser.socialProfiles?.linkedin?.handle || 'devansh-p2p'}
               </span>
             </div>
             <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0 ml-1" />
@@ -212,7 +212,7 @@ export const ProfileScreen: React.FC = () => {
             <div className="flex items-center gap-1.5 truncate">
               <span className="text-pink-400 font-bold">IG</span>
               <span className="text-slate-300 truncate">
-                {currentUser.socialProfiles?.instagram || '@devansh.connect'}
+                {currentUser.socialProfiles?.instagram?.handle || '@devansh.connect'}
               </span>
             </div>
             <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0 ml-1" />
@@ -222,7 +222,7 @@ export const ProfileScreen: React.FC = () => {
             <div className="flex items-center gap-1.5 truncate">
               <span className="text-purple-400 font-bold">git</span>
               <span className="text-slate-300 truncate">
-                {currentUser.socialProfiles?.github || 'devansh007'}
+                {currentUser.socialProfiles?.github?.handle || 'devansh007'}
               </span>
             </div>
             <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0 ml-1" />
@@ -431,7 +431,7 @@ export const ProfileScreen: React.FC = () => {
           <span>Switch Demo Account</span>
         </div>
         <p className="text-[11px] text-slate-400">
-          Quickly switch personas to experience CashConnect from different perspectives:
+          Quickly switch personas to experience CASHXCHANGE from different perspectives:
         </p>
         <div className="grid grid-cols-2 gap-2 pt-1">
           {(Object.values(state.users) as User[]).slice(0, 4).map((u) => (
@@ -498,12 +498,12 @@ export const ProfileScreen: React.FC = () => {
         <div className="fixed inset-0 z-60 bg-black/85 flex items-center justify-center p-4">
           <div className="bg-slate-900 border border-slate-800 rounded-3xl p-5 max-w-sm w-full text-white space-y-4 shadow-2xl max-h-[85vh] overflow-y-auto">
             <div className="flex items-center justify-between pb-2 border-b border-slate-800">
-              <h4 className="text-sm font-bold">CashConnect Guide</h4>
+              <h4 className="text-sm font-bold">CASHXCHANGE Guide</h4>
               <button onClick={() => setShowHelpModal(false)} className="text-slate-400">✕</button>
             </div>
             <div className="text-xs text-slate-300 space-y-3">
               <div>
-                <h5 className="font-bold text-blue-300 mb-0.5">What is CashConnect?</h5>
+                <h5 className="font-bold text-blue-300 mb-0.5">What is CASHXCHANGE?</h5>
                 <p className="text-[11px] text-slate-400">
                   A peer-to-peer cash marketplace prototype where Senders needing physical currency match with nearby Receivers who have cash.
                 </p>

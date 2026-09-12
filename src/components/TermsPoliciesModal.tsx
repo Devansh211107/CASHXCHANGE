@@ -72,14 +72,14 @@ export const TermsPoliciesModal: React.FC = () => {
             <div className="bg-amber-950/40 border border-amber-500/30 rounded-xl p-2.5 text-[11px] text-amber-200 flex items-start gap-2">
               <AlertCircle className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
               <span>
-                <strong>Educational Demonstration Notice:</strong> CashConnect is an interactive dummy prototype. All currencies, transactions, ledger balances, and OTPs are purely simulated mock data.
+                <strong>Educational Demonstration Notice:</strong> CASHXCHANGE is an interactive dummy prototype. All currencies, transactions, ledger balances, and OTPs are purely simulated mock data.
               </span>
             </div>
 
             <div className="space-y-1">
               <h4 className="text-white font-bold">1. Peer-to-Peer Marketplace Scope</h4>
               <p className="text-[11px] text-slate-400">
-                CashConnect provides a coordination interface connecting participants who need cash with nearby participants willing to provide cash. Users interact voluntarily and are responsible for validating counterpart identities.
+                CASHXCHANGE provides a coordination interface connecting participants who need cash with nearby participants willing to provide cash. Users interact voluntarily and are responsible for validating counterpart identities.
               </p>
             </div>
 
@@ -93,7 +93,7 @@ export const TermsPoliciesModal: React.FC = () => {
             <div className="space-y-1">
               <h4 className="text-white font-bold">3. Physical Meeting & Personal Liability</h4>
               <p className="text-[11px] text-slate-400">
-                Users agree to conduct exchanges exclusively in public, well-lit venues. CashConnect assumes zero liability for disputes, counterfeit currency, or physical damages occurring outside the simulated software system.
+                Users agree to conduct exchanges exclusively in public, well-lit venues. CASHXCHANGE assumes zero liability for disputes, counterfeit currency, or physical damages occurring outside the simulated software system.
               </p>
             </div>
 
@@ -112,7 +112,7 @@ export const TermsPoliciesModal: React.FC = () => {
             <div className="bg-emerald-950/40 border border-emerald-500/30 rounded-xl p-2.5 text-[11px] text-emerald-200 flex items-start gap-2">
               <Lock className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
               <span>
-                <strong>Zero Financial Data Retention:</strong> CashConnect never connects to, requests, or stores real bank credentials, credit card CVVs, or actual government identities.
+                <strong>Zero Financial Data Retention:</strong> CASHXCHANGE never connects to, requests, or stores real bank credentials, credit card CVVs, or actual government identities.
               </span>
             </div>
 

@@ -454,7 +454,7 @@ export const INITIAL_NOTIFICATIONS: NotificationItem[] = [
   {
     id: 'notif-001',
     userId: 'user-devansh',
-    title: 'Welcome to CashConnect!',
+    title: 'Welcome to CASHXCHANGE!',
     message: 'Your demo account is verified. You have ₹5,000 demo funds to test peer-to-peer cash requests.',
     read: false,
     createdAt: '2026-09-11T08:00:00Z',

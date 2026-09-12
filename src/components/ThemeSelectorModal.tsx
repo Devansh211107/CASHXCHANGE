@@ -73,7 +73,7 @@ export const ThemeSelectorModal: React.FC = () => {
             </div>
             <div>
               <h3 className="text-sm font-extrabold text-white">App Appearance & Theme</h3>
-              <p className="text-[10px] text-slate-400">Personalize your CashConnect interface</p>
+              <p className="text-[10px] text-slate-400">Personalize your CASHXCHANGE interface</p>
             </div>
           </div>
           <button

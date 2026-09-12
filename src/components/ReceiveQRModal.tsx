@@ -30,12 +30,12 @@ export const ReceiveQRModal: React.FC = () => {
 
   if (!isReceiveQrOpen) return null;
 
-  const upiId = currentUser.upiId || `${currentUser.name.toLowerCase().replace(/\s+/g, '')}@cashconnect`;
-  const peerHandle = `cashconnect.me/${currentUser.id}`;
+  const upiId = currentUser.upiId || `${currentUser.name.toLowerCase().replace(/\s+/g, '')}@cashxchange`;
+  const peerHandle = `cashxchange.me/${currentUser.id}`;
 
   const qrPayload = requestedAmount
-    ? `upi://pay?pa=${upiId}&pn=${encodeURIComponent(currentUser.name)}&am=${requestedAmount}&cu=INR&tn=CashConnect-P2P`
-    : `upi://pay?pa=${upiId}&pn=${encodeURIComponent(currentUser.name)}&cu=INR&tn=CashConnect-P2P`;
+    ? `upi://pay?pa=${upiId}&pn=${encodeURIComponent(currentUser.name)}&am=${requestedAmount}&cu=INR&tn=CASHXCHANGE-P2P`
+    : `upi://pay?pa=${upiId}&pn=${encodeURIComponent(currentUser.name)}&cu=INR&tn=CASHXCHANGE-P2P`;
 
   const handleCopy = (text: string, label: string) => {
     navigator.clipboard?.writeText?.(text);
@@ -69,7 +69,7 @@ export const ReceiveQRModal: React.FC = () => {
             </div>
             <div>
               <h3 className="text-sm font-extrabold text-white">Receive Money QR</h3>
-              <p className="text-[10px] text-slate-400">CashConnect Peer-to-Peer QR</p>
+              <p className="text-[10px] text-slate-400">CASHXCHANGE Peer-to-Peer QR</p>
             </div>
           </div>
           <button
@@ -205,25 +205,25 @@ export const ReceiveQRModal: React.FC = () => {
               <rect x="140" y="170" width="18" height="8" rx="2" fill="#0f172a" />
               <rect x="168" y="170" width="18" height="8" rx="2" fill="#0f172a" />
 
-              {/* Central CashConnect Shield Emblem */}
+              {/* Central CASHXCHANGE Shield Emblem */}
               <circle cx="100" cy="100" r="22" fill="#ffffff" />
               <circle cx="100" cy="100" r="18" fill="#0f172a" />
               <text
                 x="100"
                 y="105"
                 textAnchor="middle"
-                fontSize="12"
+                fontSize="11"
                 fontWeight="900"
                 fill="#10b981"
                 fontFamily="sans-serif"
               >
-                ₹CC
+                ₹CX
               </text>
             </svg>
           </div>
 
           <p className="text-[11px] font-semibold text-slate-600 mt-1">
-            Scan using any CashConnect app or camera
+            Scan using any CASHXCHANGE app or camera
           </p>
         </div>
 

@@ -110,7 +110,7 @@ export const Header: React.FC = () => {
           </div>
           <div>
             <div className="flex items-center gap-1.5">
-              <span className="font-extrabold text-base tracking-tight text-white">CashConnect</span>
+              <span className="font-extrabold text-base tracking-tight text-white">CASHXCHANGE</span>
               <span className="text-[10px] px-1.5 py-0.2 bg-blue-500/20 text-blue-300 font-medium rounded border border-blue-500/30">
                 P2P Cash
               </span>

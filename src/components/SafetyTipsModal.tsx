@@ -81,7 +81,7 @@ export const SafetyTipsModal: React.FC = () => {
         <div className="bg-emerald-950/40 border border-emerald-500/30 rounded-2xl p-3 flex items-start gap-2.5">
           <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
           <p className="text-xs text-emerald-200 leading-relaxed font-medium">
-            CashConnect escrow protects your digital funds until you physically verify cash and authorize the release with your secret one-time code.
+            CASHXCHANGE escrow protects your digital funds until you physically verify cash and authorize the release with your secret one-time code.
           </p>
         </div>
 

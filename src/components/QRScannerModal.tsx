@@ -94,7 +94,7 @@ export const QRScannerModal: React.FC = () => {
               </span>
               <h4 className="text-base font-black text-white mt-1">{scannedPeer.name}</h4>
               <p className="text-xs text-slate-400 font-mono">
-                {scannedPeer.upiId || `${scannedPeer.name.toLowerCase().replace(/\s+/g, '')}@cashconnect`}
+                {scannedPeer.upiId || `${scannedPeer.name.toLowerCase().replace(/\s+/g, '')}@cashxchange`}
               </p>
             </div>
 
